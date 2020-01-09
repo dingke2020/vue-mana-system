@@ -1,0 +1,26 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": {
+		"pageNum": 1,
+		"pageSize": 10,
+		"totalSize": 5,
+		"totalPages": 1,
+		"data": {
+			"total": 5,
+			"data": [{
+			"id": 3,
+			"name": "陈晨",
+			"mobile": "15990069735",
+			"groupName": "金工班",
+			"icCardNum": "412de44w22d3",
+			"userName": "15990069735",
+			"roleName": "车间管理员",
+			"creatTime": "2019-06-16 8:12",
+			"roleId": 2,
+			"userId": 2,
+			"groupId": 2,
+			"status": 1
+		}]}
+	}
+}

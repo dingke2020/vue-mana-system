@@ -1,0 +1,22 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": {
+		"pageNum": 1,
+		"pageSize": 10,
+		"totalSize": 5,
+		"totalPages": 1,
+		"parameter": {
+			"total": 1,
+			"data": [{
+			"id": 2,
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"productionProcessesName": "abc-13g",
+			"machine": "数控车床A",
+			"machineNumber": "02#",
+			"processParameters": "运行状态:全自动;油温:56.5;冷却时间:20;环境温度:35.8;关模一段压力:30.9;关模一段速度:30.9;关模一段位置:33.6",
+			"updateTime": "2020-1-7 14:22:43"
+		}]}
+	}
+}

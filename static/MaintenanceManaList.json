@@ -1,0 +1,194 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": {
+		"pageNum": 1,
+		"pageSize": 10,
+		"total": 5,
+		"totalPages": 1,
+		"plan": {
+			"total": 5,
+			"data": [{
+			"id": 1,
+			"machineNumber": "4502",
+			"machineType": "数控车床",
+			"groupName": "金工班",
+			"type": "A",
+			"period": "按年",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46"
+		},{
+			"id": 2,
+			"machineNumber": "4503",
+			"machineType": "数控车床",
+			"groupName": "金工班",
+			"type": "A",
+			"period": "按年",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46"
+		},{
+			"id": 3,
+			"machineNumber": "4504",
+			"machineType": "数控车床",
+			"groupName": "金工班",
+			"type": "B",
+			"period": "按月",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46"
+		},{
+			"id": 4,
+			"machineNumber": "4505",
+			"machineType": "数控车床",
+			"groupName": "金工班",
+			"type": "B",
+			"period": "按日",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46"
+		},{
+			"id": 5,
+			"machineNumber": "4506",
+			"machineType": "数控车床",
+			"groupName": "金工班",
+			"type": "A",
+			"period": "按年",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46"
+		}]},
+		"record": {
+			"total": 5,
+			"data": [{
+			"yearAndMonth": "2019-7",
+			"machineNumber": "01#",
+			"machine": "数控车床A",
+			"machineType": "数控车床",
+			"period": "按年",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "",
+			"status":0
+		},{
+			"yearAndMonth": "2019-7",
+			"machineNumber": "02#",
+			"machine": "数控车床B",
+			"machineType": "数控车床",
+			"period": "按年",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "",
+			"status":0
+		},{
+			"yearAndMonth": "2019-7",
+			"machineNumber": "03#",
+			"machine": "数控车床C",
+			"machineType": "数控车床",
+			"period": "按月",
+			"maintenanceDate": "10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46",
+			"status":1
+		},{
+			"yearAndMonth": "2019-7",
+			"machineNumber": "04#",
+			"machine": "数控车床D",
+			"machineType": "数控车床",
+			"period": "按月",
+			"maintenanceDate": "10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46",
+			"status":1
+		},{
+			"yearAndMonth": "2019-7",
+			"machineNumber": "05#",
+			"machine": "数控车床E",
+			"machineType": "数控车床",
+			"period": "按年",
+			"maintenanceDate": "09\\10 09:00",
+			"ddPerson": "童某某",
+			"zrPerson": "陈某某",
+			"remark": "委外",
+			"updateTime": "2019-07-04 15:46",
+			"status":1
+		}]},
+		"repair": {
+			"total": 5,
+			"data": [{
+			"id": "001",
+			"machineNumber": "01#",
+			"machine": "数控车床A",
+			"modelNumber": "CA6150A",
+			"reason": "设备零件磨损",
+			"breakDate": "2019-07-04 15:46",
+			"completeDate": "",
+			"repairPerson": "童某某",
+			"checkPerson": "陈某某",
+			"status": 0
+		},{
+			"id": "002",
+			"machineNumber": "02#",
+			"machine": "数控车床B",
+			"modelNumber": "CA6150A",
+			"reason": "设备零件磨损",
+			"breakDate": "2019-07-04 15:46",
+			"completeDate": "",
+			"repairPerson": "童某某",
+			"checkPerson": "陈某某",
+			"status": 0
+		},{
+			"id": "003",
+			"machineNumber": "03#",
+			"machine": "数控车床C",
+			"modelNumber": "CA6150A",
+			"reason": "设备零件磨损",
+			"breakDate": "2019-07-04 15:46",
+			"completeDate": "",
+			"repairPerson": "童某某",
+			"checkPerson": "陈某某",
+			"status": 0
+		},{
+			"id": "004",
+			"machineNumber": "04#",
+			"machine": "数控车床D",
+			"modelNumber": "CA6150A",
+			"reason": "设备零件磨损",
+			"breakDate": "2019-07-04 15:46",
+			"completeDate": "2019-07-04 15:46",
+			"repairPerson": "童某某",
+			"checkPerson": "陈某某",
+			"status": 1
+		},{
+			"id": "005",
+			"machineNumber": "05#",
+			"machine": "数控车床E",
+			"modelNumber": "CA6150A",
+			"reason": "设备零件磨损",
+			"breakDate": "2019-07-04 15:46",
+			"completeDate": "2019-07-04 15:46",
+			"repairPerson": "童某某",
+			"checkPerson": "陈某某",
+			"status": 1
+		}]}
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": {
+		"pageNum": 1,
+		"pageSize": 10,
+		"totalSize": 5,
+		"totalPages": 1,
+		"user": {
+			"total": 5,
+			"data": [{
+			"id": 2,
+			"name": "李四",
+			"mobile": "15990069735",
+			"groupName": "金工班",
+			"icCardNum": "412de44w22d3",
+			"userName": "15990069735",
+			"roleName": "车间管理员",
+			"creatTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 3,
+			"name": "陈晨",
+			"mobile": "15990069735",
+			"groupName": "金工班",
+			"icCardNum": "412de44w22d3",
+			"userName": "15990069735",
+			"roleName": "车间管理员",
+			"creatTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 4,
+			"name": "方某某",
+			"mobile": "15990069735",
+			"groupName": "金工班",
+			"icCardNum": "412de44w22d3",
+			"userName": "15990069735",
+			"roleName": "车间操作员",
+			"creatTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 1,
+			"name": "潘六",
+			"mobile": "15990069735",
+			"groupName": "注塑班",
+			"icCardNum": "412de44w22d3",
+			"userName": "15990069735",
+			"roleName": "车间操作员",
+			"creatTime": "2019-06-16 8:12",
+			"status": 0
+		},{
+			"id": 5,
+			"name": "章某某",
+			"mobile": "15990069735",
+			"groupName": "注塑班",
+			"icCardNum": "412de44w22d3",
+			"userName": "15990069735",
+			"roleName": "车间操作员",
+			"creatTime": "2019-06-16 8:12",
+			"status": 0
+		}]},
+		"authority": {
+			"data": [{
+			"id": 2,
+			"roleName": "超级管理员",
+			"userList": "张三丰",
+			"description": "拥有系统所有模块的增加、删除、修改、查看的权限"
+		},{
+			"id": 3,
+			"roleName": "生产调度员",
+			"userList": "郭靖；黄蓉",
+			"description": "拥有任务管理模块的增加、删除、修改、查看的权限，以及其他模块的查看权限"
+		},{
+			"id": 4,
+			"roleName": "车间管理员",
+			"userList": "方某某；王五；张三；李四；陈晨",
+			"description": "拥有生产管理模块的增加、删除、修改、查看的权限，以及其他模块的查看权限"
+		},{
+			"id": 1,
+			"roleName": "车间操作员",
+			"userList": "童某某；王某某；赵某某；刘某某",
+			"description": "拥有生产管理模块的领单、报工、查看的权限，以及其他模块的查看权限"
+		}]}
+	}
+}
