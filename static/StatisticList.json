@@ -1,0 +1,206 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": {
+		"pageNum": 1,
+		"pageSize": 10,
+		"totalSize": 5,
+		"totalPages": 1,
+		"person_chart": {
+			"total": 3,
+			"data": [{
+			"id": 2,
+			"nowDate": "2020-1-7",
+			"quantity": 100,
+			"productionTime": 10
+		},{
+			"id": 3,
+			"nowDate": "2020-1-8",
+			"quantity": 80,
+			"productionTime": 6
+		},{
+			"id": 4,
+			"nowDate": "2020-1-9",
+			"quantity": 130,
+			"productionTime": 15
+		}]},
+		"person_list": {
+			"total": 3,
+			"data": [{
+			"id": 2,
+			"name": "李四",
+			"groupName": "金工班",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"specifications": "WLW100",
+			"productionProcessesName": "粗车",
+			"machine": "数控车床A",
+			"nowQuantity": 100,
+			"productionStartTime": "2020-1-7 08:00:00",
+			"updateTime": "2020-1-7 18:00:00",
+			"productionTime": 10
+		},{
+			"id": 3,
+			"name": "陈晨",
+			"groupName": "金工班",
+			"materialName": "无油立式真空泵连杆",
+			"materialCode": "WLW100-6601",
+			"specifications": "WLW-100",
+			"productionProcessesName": "粗车",
+			"machine": "数控车床A",
+			"nowQuantity": 80,
+			"productionStartTime": "2020-1-8 10:00:00",
+			"updateTime": "2020-1-8 16:00:00",
+			"productionTime": 6
+		},{
+			"id": 4,
+			"name": "潘六",
+			"groupName": "注塑班",
+			"materialName": "无油立式真空泵气缸盖(上）",
+			"materialCode": "WLW100-02-S",
+			"specifications": "WLW-100",
+			"productionProcessesName": "粗车",
+			"machine": "数控车床A",
+			"nowQuantity": 130,
+			"productionStartTime": "2020-1-9 07:00:00",
+			"updateTime": "2020-1-9 22:00:00",
+			"productionTime": 15
+		}]},
+		"equipmemt_chart": {
+			"total": 3,
+			"data": [{
+			"id": 2,
+			"nowDate": "2020-1-7",
+			"workingTime": 20,
+			"productionTime": 10
+		},{
+			"id": 3,
+			"nowDate": "2020-1-8",
+			"workingTime": 18,
+			"productionTime": 6
+		},{
+			"id": 4,
+			"nowDate": "2020-1-9",
+			"workingTime": 16,
+			"productionTime": 15
+		}]},
+		"equipment_list": {
+			"total": 3,
+			"data": [{
+			"id": 2,
+			"name": "李四",
+			"groupName": "金工班",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"specifications": "WLW100",
+			"productionProcessesName": "粗车",
+			"machine": "数控车床A",
+			"machineNumber": "02#",
+			"nowQuantity": 100,
+			"productionStartTime": "2020-1-7 08:00:00",
+			"updateTime": "2020-1-7 18:00:00",
+			"productionTime": 10
+		},{
+			"id": 3,
+			"name": "陈晨",
+			"groupName": "金工班",
+			"materialName": "无油立式真空泵连杆",
+			"materialCode": "WLW100-6601",
+			"specifications": "WLW-100",
+			"productionProcessesName": "粗车",
+			"machine": "数控车床A",
+			"machineNumber": "03#",
+			"nowQuantity": 80,
+			"productionStartTime": "2020-1-8 10:00:00",
+			"updateTime": "2020-1-8 16:00:00",
+			"productionTime": 6
+		},{
+			"id": 4,
+			"name": "潘六",
+			"groupName": "注塑班",
+			"materialName": "无油立式真空泵气缸盖(上）",
+			"materialCode": "WLW100-02-S",
+			"specifications": "WLW-100",
+			"productionProcessesName": "粗车",
+			"machine": "数控车床A",
+			"machineNumber": "04#",
+			"nowQuantity": 130,
+			"productionStartTime": "2020-1-9 07:00:00",
+			"updateTime": "2020-1-9 22:00:00",
+			"productionTime": 15
+		}]},
+		"maintenance_a_chart": {
+			"total": 1,
+			"data": [{
+				"id": 1,
+				"machine": "数控车床A",
+				"machineNumber": "02#",
+				"period": "byMonth",
+				"january": 0,
+				"february": 0,
+				"march": 0,
+				"april": -1,
+				"may": -1,
+				"june": 1,
+				"july": 1,
+				"august": 0,
+				"september": 1,
+				"october": -1,
+				"november": 0,
+				"december": 1
+			}]
+		},
+		"maintenance_a_list": {
+			"total": 1,
+			"data": [{
+				"id": 1,
+				"month": "2019-12",
+				"machine": "数控车床A",
+				"machineNumber": "02#",
+				"machineType": "数控车床",
+				"period": "byMonth",
+				"maintenanceDate": "2019-12-7",
+				"ddPerson": "童金富",
+				"zrPerson": "陈育广",
+				"remark": "委外",
+				"updateTime": "2019-12-7",
+				"status": 1
+			}]
+		},
+		"maintenance_b_chart": {
+			"total": 1,
+			"data": [{
+				"id": 1,
+				"machine": "数控车床A",
+				"machineNumber": "02#",
+				"january": 3,
+				"february": 2,
+				"march": 1,
+				"april": null,
+				"may": null,
+				"june": 3,
+				"july": 1,
+				"august": 1,
+				"september": 2,
+				"october": null,
+				"november": 3,
+				"december": 4
+			}]
+		},
+		"maintenance_b_list": {
+			"total": 1,
+			"data": [{
+				"id": 1,
+				"machine": "数控车床A",
+				"machineNumber": "02#",
+				"modelNumber": "CL6156",
+				"reason": "磨损",
+				"breakDate": "2019-12-20 10:00:00",
+				"completeDate": "2019-12-20 17:00:00",
+				"repairPerson": "张三",
+				"checkPerson": "李四",
+				"status": 1
+			}]
+		}
+	}
+}

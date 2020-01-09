@@ -1,0 +1,187 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": {
+		"pageNum": 1,
+		"pageSize": 10,
+		"total": 5,
+		"totalPages": 1,
+		"production_processes": {
+			"total": 5,
+			"data": [{
+			"id": 2,
+			"productionProcessesName": "粗车",
+			"productionProcessesCode": "WC000001",
+			"deptment": "金工班",
+			"updateTime": "2019-06-16 8:12"
+		},{
+			"id": 3,
+			"productionProcessesName": "粗车",
+			"productionProcessesCode": "WC000001",
+			"deptment": "金工班",
+			"updateTime": "2019-06-16 8:12"
+		},{
+			"id": 4,
+			"productionProcessesName": "粗车",
+			"productionProcessesCode": "WC000001",
+			"deptment": "金工班",
+			"updateTime": "2019-06-16 8:12"
+		},{
+			"id": 1,
+			"productionProcessesName": "粗车",
+			"productionProcessesCode": "WC000001",
+			"deptment": "金工班",
+			"updateTime": "2019-06-16 8:12"
+		},{
+			"id": 5,
+			"productionProcessesName": "粗车",
+			"productionProcessesCode": "WC000001",
+			"deptment": "金工班",
+			"updateTime": "2019-06-16 8:12"
+		}]},
+		"machine": {
+			"total": 5,
+			"data": [{
+			"id": 2,
+			"machine": "数控车床A",
+			"machineNumber": "02#",
+			"machineType": "数控车床",
+			"modelNumber": "CL6156",
+			"workShop": "金加工车间",
+			"productionProcessesName": "粗车；精车",
+			"updateTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 3,
+			"machine": "数控车床A",
+			"machineNumber": "03#",
+			"machineType": "数控车床",
+			"modelNumber": "CL6156",
+			"workShop": "金加工车间",
+			"productionProcessesName": "粗车；精车",
+			"updateTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 4,
+			"machine": "数控车床A",
+			"machineNumber": "04#",
+			"machineType": "数控车床",
+			"modelNumber": "CL6156",
+			"workShop": "金加工车间",
+			"productionProcessesName": "粗车；精车",
+			"updateTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 1,
+			"machine": "数控车床A",
+			"machineNumber": "01#",
+			"machineType": "数控车床",
+			"modelNumber": "CL6156",
+			"workShop": "金加工车间",
+			"productionProcessesName": "粗车；精车",
+			"updateTime": "2019-06-16 8:12",
+			"status": 0
+		},{
+			"id": 5,
+			"machine": "数控车床A",
+			"machineNumber": "05#",
+			"machineType": "数控车床",
+			"modelNumber": "CL6156",
+			"workShop": "金加工车间",
+			"productionProcessesName": "粗车；精车",
+			"updateTime": "2019-06-16 8:12",
+			"status": 0
+		}]},
+		"material": {
+			"total": 5,
+			"data": [{
+			"id": 2,
+			"productionDepartment": "金工班",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"specifications": "WLW100",
+			"type": "只",
+			"updateTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 3,
+			"productionDepartment": "金工班",
+			"materialName": "无油立式真空泵连杆",
+			"materialCode": "WLW100-6601",
+			"specifications": "WLW100",
+			"type": "只",
+			"updateTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 4,
+			"productionDepartment": "金工班",
+			"materialName": "无油立式真空泵气缸盖(上）",
+			"materialCode": "WLW100-02-S",
+			"specifications": "WLW100",
+			"type": "只",
+			"updateTime": "2019-06-16 8:12",
+			"status": 1
+		},{
+			"id": 1,
+			"productionDepartment": "金工班",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"specifications": "WLW100",
+			"type": "只",
+			"updateTime": "2019-06-16 8:12",
+			"status": 0
+		},{
+			"id": 5,
+			"productionDepartment": "金工班",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"specifications": "WLW100",
+			"type": "只",
+			"updateTime": "2019-06-16 8:12",
+			"status": 0
+		}]},
+		"routing": {
+			"total": 5,
+			"data": [{
+			"id": 2,
+			"routingName": "无油立式真空泵气缸体",
+			"routingCode": "RT-WLW100-01",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"processesNameAll": "精车；内圆磨；加工中心；钳工",
+			"status": 1
+		},{
+			"id": 3,
+			"routingName": "无油立式真空泵气缸体",
+			"routingCode": "RT-WLW100-01",
+			"materialName": "无油立式真空泵连杆",
+			"materialCode": "WLW100-6601",
+			"processesNameAll": "精车；内圆磨；加工中心；钳工",
+			"status": 1
+		},{
+			"id": 4,
+			"routingName": "无油立式真空泵气缸体",
+			"routingCode": "RT-WLW100-01",
+			"materialName": "无油立式真空泵气缸盖(上）",
+			"materialCode": "WLW100-02-S",
+			"processesNameAll": "精车；内圆磨；加工中心；钳工",
+			"status": 1
+		},{
+			"id": 1,
+			"routingName": "无油立式真空泵气缸体",
+			"routingCode": "RT-WLW100-01",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"processesNameAll": "精车；内圆磨；加工中心；钳工",
+			"status": 0
+		},{
+			"id": 5,
+			"routingName": "无油立式真空泵气缸体",
+			"routingCode": "RT-WLW100-01",
+			"materialName": "无油立式真空泵气缸体",
+			"materialCode": "WLW100-01",
+			"processesNameAll": "精车；内圆磨；加工中心；钳工",
+			"status": 0
+		}]}
+	}
+}

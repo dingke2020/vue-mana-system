@@ -1,0 +1,164 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": [{
+		"id": 35,
+		"createBy": "admin",
+		"createTime": null,
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2019-06-14T09:05:24.000+0000",
+		"parentId": 0,
+		"name": "任务管理",
+		"url": "/Task/Index",
+		"perms": null,
+		"type": 2,
+		"icon": "icon-ali-list",
+		"orderNum": 3,
+		"delFlag": 0,
+		"parentName": null,
+		"level": 0,
+		"children": []
+	},{
+		"id": 45,
+		"createBy": "admin",
+		"createTime": "2018-11-15T06:39:30.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-11-15T06:56:18.000+0000",
+		"parentId": 0,
+		"name": "生产管理",
+		"url": "/Production/Index",
+		"perms": "",
+		"type": 1,
+		"icon": "icon-ali-Bag",
+		"orderNum": 5,
+		"delFlag": 0,
+		"parentName": null,
+		"level": 0,
+		"children": []
+	},{
+		"id": 55,
+		"createBy": "admin",
+		"createTime": "2018-11-15T06:39:30.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-11-15T06:56:18.000+0000",
+		"parentId": 0,
+		"name": "维保管理",
+		"url": "/Maintenance/Index",
+		"perms": "",
+		"type": 1,
+		"icon": "icon-ali-wrench",
+		"orderNum": 5,
+		"delFlag": 0,
+		"parentName": null,
+		"level": 0,
+		"children": [
+			{	"id": 100,
+				"name": "保养计划",
+				"url": "/Maintenance/Index"
+			},
+			{	"id": 101,
+				"name": "保养记录",
+				"url": "/Maintenance/Record"
+			},
+			{	"id": 102,
+				"name": "维修记录",
+				"url": "/Maintenance/Repair"
+			}
+		]
+	},{
+		"id": 65,
+		"createBy": "admin",
+		"createTime": "2018-11-15T06:39:30.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-11-15T06:56:18.000+0000",
+		"parentId": 0,
+		"name": "工艺管理",
+		"url": "/Process/Index",
+		"perms": "",
+		"type": 1,
+		"icon": "icon-ali-folderplus-fill",
+		"orderNum": 5,
+		"delFlag": 0,
+		"parentName": null,
+		"level": 0,
+		"children": [
+			{	"id": 201,
+				"name": "工艺参数",
+				"url": "/Process/Parameter"
+			}
+		]
+
+	},{
+		"id": 75,
+		"createBy": "admin",
+		"createTime": "2018-11-15T06:39:30.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-11-15T06:56:18.000+0000",
+		"parentId": 0,
+		"name": "统计分析",
+		"url": "/Statistic/Index",
+		"perms": "",
+		"type": 1,
+		"icon": "icon-ali-statistic",
+		"orderNum": 5,
+		"delFlag": 0,
+		"parentName": null,
+		"level": 0,
+		"children": [
+			{
+				"id": 300,
+				"name": "人员绩效",
+				"url": "/Statistic/Index"
+			},
+			{
+				"id": 301,
+				"name": "设备绩效",
+				"url": "/Statistic/Equipment"
+			},
+			{
+				"id": 302,
+				"name": "设备保养",
+				"url": "/Statistic/Maintenance"
+			},
+			{
+				"id": 303,
+				"name": "设备维修",
+				"url": "/Statistic/MaintenanceCopy"
+			}
+		]
+	},{
+		"id": 85,
+		"createBy": "admin",
+		"createTime": "2018-11-15T06:39:30.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-11-15T06:56:18.000+0000",
+		"parentId": 0,
+		"name": "配置管理",
+		"url": "/Configuration/Index",
+		"perms": "",
+		"type": 1,
+		"icon": "icon-ali-geara",
+		"orderNum": 5,
+		"delFlag": 0,
+		"parentName": null,
+		"level": 0,
+		"children": [
+			{	"id": 400,
+				"name": "工序管理",
+				"url": "/Configuration/Index"
+			},
+			{	"id": 401,
+				"name": "设备管理",
+				"url": "/Configuration/Device"
+			},
+			{	"id": 402,
+				"name": "物料管理",
+				"url": "/Configuration/Material"
+			},
+			{	"id": 403,
+				"name": "工艺路线",
+				"url": "/Configuration/Route"
+			}
+		]
+	}]
+}

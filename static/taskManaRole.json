@@ -1,0 +1,41 @@
+{
+	"code": 200,
+	"msg": null,
+	"data": [{
+		"id": 1,
+		"createBy": "admin",
+		"createTime": "2018-08-14T03:11:11.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-09-23T11:07:18.000+0000",
+		"name": "admin",
+		"remark": "超级管理员",
+		"delFlag": 0
+	}, {
+		"id": 2,
+		"createBy": "admin",
+		"createTime": "2018-08-14T03:11:11.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-08-14T03:11:11.000+0000",
+		"name": "dev",
+		"remark": "开发人员",
+		"delFlag": 0
+	}, {
+		"id": 3,
+		"createBy": "admin",
+		"createTime": "2018-08-14T03:11:11.000+0000",
+		"lastUpdateBy": "admin",
+		"lastUpdateTime": "2018-08-14T03:11:11.000+0000",
+		"name": "test",
+		"remark": "测试人员",
+		"delFlag": 0
+	}, {
+		"id": 8,
+		"createBy": "admin",
+		"createTime": "2018-09-23T11:09:52.000+0000",
+		"lastUpdateBy": null,
+		"lastUpdateTime": null,
+		"name": "mng",
+		"remark": "部门经理",
+		"delFlag": 0
+	}]
+}
